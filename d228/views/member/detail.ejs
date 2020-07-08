@@ -9,7 +9,7 @@
         color: gray;
       }
       .left {
-        flex-grow: 1;
+        width: 410px;
       }
       .right {
         flex-grow: 1;
@@ -26,12 +26,12 @@
     <div
       style="
         padding: 0rem 18rem;
-        margin-left: 0.8rem;
+        margin-left: -15rem;
         margin-top: 1.5rem;
         display: flex;
       "
     >
-      <div class="left" style="width: 40rem; height: 40rem;">
+      <div class="left">
         <div
           style="
             display: flex;
@@ -88,7 +88,7 @@
             border: 1px solid black;
             float: left;
             padding: 20px 10px;
-            width: 100%;
+            width: 90%;
           "
         >
           <table>
@@ -121,6 +121,13 @@
             </tr>
           </table>
         </div>
+        <button
+          type="button"
+          class="btn btn-primary"
+          style="width: 8rem; margin-top: 20.85rem; margin-left: 2rem;"
+        >
+          회비 납부
+        </button>
       </div>
     </div>
     <%- include ("../include/footer.ejs") %>
